@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Archivo Narrow bold';
+    src: url('ArchivoNarrow-Bold.eot');
+    src: local('Archivo Narrow Bold'), local('ArchivoNarrow-Bold'),
+        url('ArchivoNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-Bold.woff2') format('woff2'),
+        url('ArchivoNarrow-Bold.woff') format('woff'),
+        url('ArchivoNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow bold-italic';
+    src: url('ArchivoNarrow-BoldItalic.eot');
+    src: local('Archivo Narrow Bold Italic'), local('ArchivoNarrow-BoldItalic'),
+        url('ArchivoNarrow-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-BoldItalic.woff2') format('woff2'),
+        url('ArchivoNarrow-BoldItalic.woff') format('woff'),
+        url('ArchivoNarrow-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow regular';
+    src: url('ArchivoNarrow-Regular.eot');
+    src: local('Archivo Narrow Regular'), local('ArchivoNarrow-Regular'),
+        url('ArchivoNarrow-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-Regular.woff2') format('woff2'),
+        url('ArchivoNarrow-Regular.woff') format('woff'),
+        url('ArchivoNarrow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow italic';
+    src: url('ArchivoNarrow-Italic.eot');
+    src: local('Archivo Narrow Italic'), local('ArchivoNarrow-Italic'),
+        url('ArchivoNarrow-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-Italic.woff2') format('woff2'),
+        url('ArchivoNarrow-Italic.woff') format('woff'),
+        url('ArchivoNarrow-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow medium';
+    src: url('ArchivoNarrow-Medium.eot');
+    src: local('Archivo Narrow Medium'), local('ArchivoNarrow-Medium'),
+        url('ArchivoNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-Medium.woff2') format('woff2'),
+        url('ArchivoNarrow-Medium.woff') format('woff'),
+        url('ArchivoNarrow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow medium-italic';
+    src: url('ArchivoNarrow-MediumItalic.eot');
+    src: local('Archivo Narrow Medium Italic'), local('ArchivoNarrow-MediumItalic'),
+        url('ArchivoNarrow-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-MediumItalic.woff2') format('woff2'),
+        url('ArchivoNarrow-MediumItalic.woff') format('woff'),
+        url('ArchivoNarrow-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow semibold';
+    src: url('ArchivoNarrow-SemiBold.eot');
+    src: local('Archivo Narrow SemiBold'), local('ArchivoNarrow-SemiBold'),
+        url('ArchivoNarrow-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-SemiBold.woff2') format('woff2'),
+        url('ArchivoNarrow-SemiBold.woff') format('woff'),
+        url('ArchivoNarrow-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo Narrow semibold-italic';
+    src: url('ArchivoNarrow-SemiBoldItalic.eot');
+    src: local('Archivo Narrow SemiBold Italic'), local('ArchivoNarrow-SemiBoldItalic'),
+        url('ArchivoNarrow-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoNarrow-SemiBoldItalic.woff2') format('woff2'),
+        url('ArchivoNarrow-SemiBoldItalic.woff') format('woff'),
+        url('ArchivoNarrow-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+

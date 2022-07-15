@@ -1,0 +1,98 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+
+
+
+
+
+p{color: #000000;}
+$color1:#09162E;
+$color2:#707B8F (opacity 15%);
+$color3:#00885F;
+$color4:#007A71;
+$color5:#0062A4;
+
+
+
+.header{position: fixed;padding:  0 4%;z-index: 1;display: flex;align-items: center;justify-content: space-between;height: 100px;background-color: white;width: 100%;
+    .logo{width: 50%;
+        img{width:80%;height: 100%;object-fit: contain;}
+    }
+    .menu{position: absolute;top: 100px;left: -100%;opacity: 0;transition: all .4s ease;width: 100%;height: 80vh;background-color: #000000;width: 100%;padding: 30px 0;;
+        .menu-items{padding: 25px 20px;list-style: none;text-align: center;
+            a{font-size: 35px;text-decoration: none; font-family: 'Archivo Narrow regular';color: white;transition: .3s ease-in;;
+                &:hover{color: $color3;}
+            }
+        }
+    }
+    .humburger{height:20px;width: 35px;transition: 4s ease-in;;
+        .bar1{height: 5px;width: 100%;background-color: #000;transition: 4s ease-in;}
+        #top{transform: translateY(-4px);transition: all .6s ease;}
+        #middle{transition: all .6s ease;}
+        #bottom{transform: translateY(4px);transition: all .6s ease;}
+    }
+    .open{opacity: 1;left: 0;
+        #top{transform: translateY(5px)rotate(45deg);}
+        #middle{opacity: 0;}
+        #bottom{transform: translateY(-5px)rotate(-45deg);}
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header{display: flex;padding: 0 50px;align-items: center;height: 130px;;
+        .menu{background: none;height: auto;
+            .menu-items a{font-size: 25px;color: #000000; font-family: 'Archivo Narrow bold'}
+        }
+        .logo{
+            img{width: 230px;}
+        }
+        .menu{position: relative; top: 0; width: 100%; left: 0; opacity: 1; transition: all .4s ease; display: flex;justify-content: flex-end;;}
+        .humburger{display: none;
+        } 
+      
+    }
+    
+
+}
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .header{
+       .menu{
+        .menu-items{
+            a{font-size: 35px;}
+        }
+    }
+}
+}
+
+
+
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
